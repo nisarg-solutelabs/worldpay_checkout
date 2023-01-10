@@ -1,0 +1,30 @@
+name: worldpay_checkout
+description: A new flutter plugin project.
+version: 0.0.3+6
+publish_to: "none"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  worldpay_checkout_platform_interface:
+    git:
+      url: https://github.com/nisarg-solutelabs/worldpay_checkout.git
+      path: worldpay_checkout_platform_interface
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.mcd.worldpay_checkout.worldpay_checkout
+        pluginClass: WorldpayCheckoutPlugin
+      ios:
+        pluginClass: WorldpayCheckoutPlugin

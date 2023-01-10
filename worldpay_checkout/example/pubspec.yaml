@@ -1,0 +1,22 @@
+name: worldpay_checkout_example
+description: Demonstrates how to use the worldpay_checkout plugin.
+
+publish_to: "none"
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  worldpay_checkout:
+    git:
+      url: https://github.com/solutelabs/worldpay_checkout
+      path: worldpay_checkout
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0

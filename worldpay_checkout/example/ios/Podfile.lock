@@ -1,0 +1,29 @@
+PODS:
+  - AccessCheckoutSDK (2.3.0)
+  - Flutter (1.0.0)
+  - worldpay_checkout (0.0.1):
+    - AccessCheckoutSDK
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - worldpay_checkout (from `.symlinks/plugins/worldpay_checkout/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AccessCheckoutSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  worldpay_checkout:
+    :path: ".symlinks/plugins/worldpay_checkout/ios"
+
+SPEC CHECKSUMS:
+  AccessCheckoutSDK: 585eaab57ab6fbba69cc90bdd989e423ac96e221
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  worldpay_checkout: 5a03d00eb510487d4e9c172dddb2d1f0f901a572
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.11.2
